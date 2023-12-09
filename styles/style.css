@@ -1,0 +1,33 @@
+@import url(./task.css);
+@import url(./listTask.css);
+@import url(./clearbtn.css);
+*{
+    box-sizing: border-box;
+}
+
+body{
+        color: #000;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        line-height: 150%;
+        font-weight: 400;
+        background-color: rgba(191, 201, 232, 0.444);
+}
+
+.header{
+    height: 50px;
+    background-color: rgb(85, 182, 251);
+    padding-left: 150px;
+    color: #fff;
+    font-size: 24px;
+}
+.container{
+    display: flex;
+    align-items: center;
+}
+button{
+    cursor: pointer;
+}
+
+ 
